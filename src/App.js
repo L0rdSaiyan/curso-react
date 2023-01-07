@@ -1,6 +1,7 @@
 import './App.css';
 import HelloWorl from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 
 function App() {
  
@@ -12,10 +13,11 @@ function App() {
   return(
 
 
-    <div>
-    <HelloWorl/>
-
+    <div className='App'>
+      <HelloWorl></HelloWorl>
     <SayMyName nome="João"/>
+    <SayMyName nome={nome} />
+    <Pessoa nome={nome} idade="16" profissao="Programador" foto="https://criticalhits.com.br/wp-content/uploads/2019/11/gogeta-instinto-superior.jpg" />
 
 
     </div>
