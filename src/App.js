@@ -1,5 +1,6 @@
 import './App.css';
 import HelloWorl from './components/HelloWorld';
+import SayMyName from './components/SayMyName';
 
 function App() {
  
@@ -10,7 +11,16 @@ function App() {
 
   return(
 
-    <HelloWorl></HelloWorl>
+
+    <div>
+    <HelloWorl/>
+
+    <SayMyName nome="João"/>
+
+
+    </div>
+
+
 
   )
 
