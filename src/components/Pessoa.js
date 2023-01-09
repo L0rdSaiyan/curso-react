@@ -9,4 +9,11 @@ const Pessoa = ({ foto, nome, idade, profissao }) => {
   );
 };
 
+
+Pessoa.defaultProps = {
+
+  nome: "João Victor Sales"
+
+}
+
 export default Pessoa;
