@@ -1,11 +1,12 @@
 import styles from "./Frase.module.css"
-
+import ConteudoFrase from "./ConteudoFrase";
 
 const Frase = () => {
 
   return (
     <div className={styles.fraseContainer}>
-      <p>Este é um componente com uma frase estilizada com CSS Modules</p>
+      <ConteudoFrase frase="Este é um componente que retorna um componente feito utilizando fragment e css modules!"></ConteudoFrase>
+
     </div>
   );
 };
