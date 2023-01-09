@@ -6,9 +6,9 @@ const List = () =>{
     <>
         <ul>
           
-            <Item marca="Microsoft"/>
-            <Item marca="Google"/>
-            <Item marca="Apple"/>
+            <Item marca="Microsoft" ano_lancamento={1975}/>
+            <Item marca="Google" ano_lancamento={1998}/>
+            <Item marca="Apple" ano_lancamento={1984}/>
 
         </ul>
 
