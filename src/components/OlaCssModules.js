@@ -1,19 +1,11 @@
-import styles from "./OlaCss.module.css"
+import styles from "./OlaCss.module.css";
 
-const OlaCssModules = () =>{
+const OlaCssModules = () => {
+  return (
+    <>
+      <p className={styles.texto}>Olá CSS Modules com React Fragments!</p>
+    </>
+  );
+};
 
-    return(
-
-        <>
-        
-        <p className={styles.texto}>Olá CSS Modules com React Fragments!</p>
-        
-        </>
-
-    )
-
-
-}
-
-
-export default OlaCssModules
+export default OlaCssModules;

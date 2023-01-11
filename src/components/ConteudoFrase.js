@@ -1,18 +1,9 @@
-const ConteudoFrase = ({frase}) =>{
+const ConteudoFrase = ({ frase }) => {
+  return (
+    <>
+      <p>{frase}</p>
+    </>
+  );
+};
 
-    return (
-
-        <>
-        
-            <p>{frase}</p>
-
-        </>
-
-
-    )
-
-
-}
-
-
-export default ConteudoFrase
+export default ConteudoFrase;

@@ -1,0 +1,16 @@
+.btn{
+
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(90deg, red,black);
+    color:white;
+    transition: 200ms;   
+}
+
+.btn:hover{
+
+    filter: hue-rotate(30deg);
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
