@@ -19,9 +19,17 @@ function Evento2js({ video }) {
     alert("oi");
   }
 
+  if(video.length>=35){
+
+    video=video.substring(0,43)
+    console.log("maior q 35")
+
+  }
+
   let videoConvertido =
     video.slice(0, 23) + "/embed/" + video.slice(32, 48);
   video = videoConvertido;
+  console.log(video)
 
   return (
     <>

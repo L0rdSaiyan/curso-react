@@ -18,7 +18,7 @@ function App() {
 
     <h1>Olá, {nome}</h1>
     <h2>Testando Eventos</h2>
-    <Evento2js video="https://www.youtube.com/watch?v=fPuDTdQZzKk"></Evento2js>
+    <Evento2js video="https://www.youtube.com/watch?v=v8FpRTuTur0&t=3s"></Evento2js>
 
     </div>
 
