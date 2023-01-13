@@ -19,6 +19,17 @@ const Condicional = ()=>{
 
     }
 
+    const verificaEmail=(e) =>{
+        e.preventDefault()
+
+        if(!userEmail.includes("gmail.com")){
+
+            alert("Favor inserir o email corretamente!")
+
+        }
+
+    }
+
     return(
         <>
         
@@ -32,6 +43,7 @@ const Condicional = ()=>{
 
             <p>Eae meu nobre! {userEmail}</p>
             <button onClick={limparEmail}>Limpar email!</button>
+            <button onClick={verificaEmail}>verificar</button>
 
 
             </div>
