@@ -5,3 +5,21 @@
     background-color: royalblue;
 
 }
+img{
+
+    width: 250px;
+    height: 250px;
+
+}
+
+img:not(:hover){
+
+    opacity: 0.3;
+
+}
+
+img:hover{
+
+    scale: 1.1;
+
+}

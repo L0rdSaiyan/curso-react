@@ -8,18 +8,39 @@ import OlaCssModules from "./components/OlaCssModules";
 import Evento from "./components/Evento";
 import Form from "./components/Form";
 import Evento2js from "./components/Evento2";
+import UsoUseState from "./components/UsoUseState";
+import ComponentUseState from "./components/ComponentUseState";
+import EventoProps from "./components/EventoProps";
 
 function App() {
   const nome = "João Victor";
 
+  function renderizarTexto(){
+
+    setTimeout(massa=>{
+
+
+       <Form></Form>
+
+      
+    },5000)
+
+
+
+    }
+
+
+
+  
+
   return(
 
-    <div className="App">
+    <div className="App" onLoad={renderizarTexto}>
 
     <h1>Olá, {nome}</h1>
     <h2>Testando Eventos</h2>
-    <Evento2js video="https://www.youtube.com/watch?v=v8FpRTuTur0&t=3s"></Evento2js>
-
+    {/* <Evento2js video="https://www.youtube.com/watch?v=fPuDTdQZzKk"></Evento2js> */}
+    <EventoProps></EventoProps>
     </div>
 
   )
