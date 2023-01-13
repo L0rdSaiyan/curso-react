@@ -13,6 +13,14 @@ const Condicional = ()=>{
 
 
     }
+    const limparEmail = (e) =>{
+
+        e.preventDefault()
+        setUserEmail(email)
+        alert(userEmail)
+
+
+    }
 
     return(
         <>
@@ -21,7 +29,22 @@ const Condicional = ()=>{
 
         <input type="text" placeholder='Digite o seu email...' onChange={(e)=>{setEmail(e.target.value)}}></input>
         <button type='submit' onClick={enviarEmail}>Enviar</button>
-        {userEmail}
+        {userEmail &&(
+
+            <div>
+
+            <p>Eae meu nobre! {userEmail}</p>
+            <button onClick={limparEmail}>Limpar email!</button>
+
+
+            </div>
+
+
+        )
+        
+        
+        
+        }
         </form>
 
         </>
