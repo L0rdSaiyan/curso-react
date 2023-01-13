@@ -15,36 +15,17 @@ import EventoProps from "./components/EventoProps";
 function App() {
   const nome = "João Victor";
 
-  function renderizarTexto(){
+  function renderizarTexto() {
+    setTimeout((massa) => {
+      <Form></Form>;
+    }, 5000);
+  }
 
-    setTimeout(massa=>{
-
-
-       <Form></Form>
-
-      
-    },5000)
-
-
-
-    }
-
-
-
-  
-
-  return(
-
+  return (
     <div className="App" onLoad={renderizarTexto}>
-
-    <h1>Olá, {nome}</h1>
-    <h2>Testando Eventos</h2>
-    {/* <Evento2js video="https://www.youtube.com/watch?v=fPuDTdQZzKk"></Evento2js> */}
-    <EventoProps></EventoProps>
+      <h1>Olá, {nome}</h1>
+      {/* <Evento2js video="https://www.youtube.com/watch?v=fPuDTdQZzKk"></Evento2js> */}
     </div>
-
-  )
-
-
+  );
 }
 export default App;
