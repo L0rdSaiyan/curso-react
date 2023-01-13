@@ -9,15 +9,12 @@ const Condicional = ()=>{
 
         e.preventDefault()
         setUserEmail(email)
-        alert(userEmail)
 
 
     }
-    const limparEmail = (e) =>{
+    const limparEmail = () =>{
 
-        e.preventDefault()
-        setUserEmail(email)
-        alert(userEmail)
+        setUserEmail("")
 
 
     }
