@@ -12,21 +12,22 @@ import UsoUseState from "./components/UsoUseState";
 import ComponentUseState from "./components/ComponentUseState";
 import EventoProps from "./components/EventoProps";
 import Condicional from "./components/Condicional";
+import RenderizaImg from "./components/RenderizaImg";
+import OutraLista from "./components/OutraLista";
+import Form2 from "./components/Form2";
+import NumAleatorio from "./components/NumAleatorio";
 
 function App() {
   const nome = "João Victor";
 
-  function renderizarTexto() {
-    setTimeout((massa) => {
-      <Form></Form>;
-    }, 5000);
-  }
+  const meuArray = ["React", "Vue", "Angular"]
 
   return (
-    <div className="App" onLoad={renderizarTexto}>
-      <h1>Olá, {nome}</h1>
+    <div className="App">
+      <h1>Testando renderização de listas</h1>
       {/* <Evento2js video="https://www.youtube.com/watch?v=fPuDTdQZzKk"></Evento2js> */}
-      <Condicional></Condicional>
+    <OutraLista itens={meuArray}></OutraLista>
+    <NumAleatorio></NumAleatorio>
     </div>
   );
 }

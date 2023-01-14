@@ -37,6 +37,8 @@ const Condicional = ()=>{
 
         <input type="text" placeholder='Digite o seu email...' onChange={(e)=>{setEmail(e.target.value)}}></input>
         <button type='submit' onClick={enviarEmail}>Enviar</button>
+     
+
         {userEmail &&(
 
             <div>
