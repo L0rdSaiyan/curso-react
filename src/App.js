@@ -19,6 +19,7 @@ import NumAleatorio from "./components/NumAleatorio";
 import Button2 from "./components/eventos/Button2";
 import RenderizarTextos from "./components/eventos/RenderizarTextos";
 import TabelaDinamica from "./components/udemy/TabelaDinamica";
+import FormularioU from "./components/udemy/FormularioU";
 
 function App() {
   const nome = "João Victor";
@@ -47,7 +48,7 @@ function App() {
     <div className="App">
       <h1>Testando renderização de listas</h1>
       {/* <Evento2js video="https://www.youtube.com/watch?v=fPuDTdQZzKk"></Evento2js> */}
-    <TabelaDinamica  larguraTabela="100%" tamanhoTabela="2"  titulo1="id" titulo2="Produto" titulo3="Preço" id="0" item="Notebook" preco="R$ 1.500.00"></TabelaDinamica>
+    <FormularioU></FormularioU>
     </div>
   );
 }
