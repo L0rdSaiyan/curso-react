@@ -16,9 +16,30 @@ import RenderizaImg from "./components/RenderizaImg";
 import OutraLista from "./components/OutraLista";
 import Form2 from "./components/Form2";
 import NumAleatorio from "./components/NumAleatorio";
+import Button2 from "./components/eventos/Button2";
+import RenderizarTextos from "./components/eventos/RenderizarTextos";
+import TabelaDinamica from "./components/udemy/TabelaDinamica";
 
 function App() {
   const nome = "João Victor";
+
+  function dizerNome(){
+
+    alert("oLA JOAO")
+
+  }
+
+  function dizerFrase(){
+
+    return "O meu nome é:"
+
+  }
+
+  function dizerNome(){
+
+    return "João"
+
+  }
 
   const meuArray = ["React", "Vue", "Angular"]
 
@@ -26,8 +47,7 @@ function App() {
     <div className="App">
       <h1>Testando renderização de listas</h1>
       {/* <Evento2js video="https://www.youtube.com/watch?v=fPuDTdQZzKk"></Evento2js> */}
-    <OutraLista itens={meuArray}></OutraLista>
-    <NumAleatorio></NumAleatorio>
+    <TabelaDinamica  larguraTabela="100%" tamanhoTabela="2"  titulo1="id" titulo2="Produto" titulo3="Preço" id="0" item="Notebook" preco="R$ 1.500.00"></TabelaDinamica>
     </div>
   );
 }
