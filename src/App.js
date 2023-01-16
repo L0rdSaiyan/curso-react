@@ -48,7 +48,7 @@ function App() {
     <div className="App">
       <h1>Testando renderização de listas</h1>
       {/* <Evento2js video="https://www.youtube.com/watch?v=fPuDTdQZzKk"></Evento2js> */}
-    <FormularioU></FormularioU>
+    <FormularioU lista={meuArray}></FormularioU>
     </div>
   );
 }
